@@ -1,5 +1,7 @@
-const char SSID[] = "";
-const char PASSWORD[] = "";
+//const char SSID[] = "aterm-2.4Ghz";
+//const char PASSWORD[] = "neko4719A";
+const char SSID[] = "rakuten mini";
+const char PASSWORD[] = "aaaaaaaa";
 
 void wifi_init(){
     Serial.println("WiFi connecting...");

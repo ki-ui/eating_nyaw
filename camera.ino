@@ -28,7 +28,7 @@ void camera_init(){
         .ledc_timer = LEDC_TIMER_0,     // 0番のタイマー使用
         .ledc_channel = LEDC_CHANNEL_0, // 0番のチャネル使用
         .pixel_format = PIXFORMAT_JPEG, // JPEG
-        .frame_size = FRAMESIZE_UXGA,   // 解像度
+        .frame_size = FRAMESIZE_VGA,   // 解像度
         .jpeg_quality = 8,             // JPGE画質（小さいほど高画質）
         .fb_count = 1                   // フレームバッファ数（２つあれば２倍で処理できる？）
     };
